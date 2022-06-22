@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex to RGB Converter</title>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./Styles/Style.css">
+
+    <!-- icon -->
+    <link rel="icon" href="./Icon/1650861185003-removebg-preview - Copy.png">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <img id="logo" src="./Gif/output-onlinegiftools.gif" alt="">
+
+    <a href="https://github.com/bulelaniskhikhi" target="_blank">
+        <button style=" width: 8rem;">
+            follow my github
+        </button>
+    </a>    
+    </nav>
+
+    <div id="container">
+
+        <h1>✧･ﾟ: *✧･ﾟ:*Hex to RGB Converter*:･ﾟ✧*:･ﾟ✧</h1>
+
+        <div>
+
+            <br>
+
+            <label for="hex">
+                Hex color:
+            </label>
+
+            <br><br>
+
+            <input type="hex" class="form-control mb-2" name="hex" minlength="3" maxlength="6" id="hex">
+
+        </div>
+
+        <div>
+
+            <br>
+            
+            <button id="convert">Convert</button>
+
+            <button id="clear">Clear</button>
+
+        </div>
+
+        <div id="rgb">
+
+            <label for="red">
+                Red:
+            </label>
+
+            <div id="r"></div>
+
+            <label for="green">
+                Green:
+            </label>
+
+            <div id="g"></div>
+
+            <label for="blue">
+                Blue:
+            </label>
+
+            <div id="b"></div>
+
+        </div>
+
+        <div>
+
+            <label for="value">
+                RGB Value:
+            </label>
+
+            <div id="value">
+                rgb(0 ,0 ,0)
+            </div>
+
+        </div>
+
+
+        <label for="preview">
+            Color Preview:
+        </label>
+
+        <div id="preview" class="container">.</div>
+
+    </div>
+
+    <!-- My JS -->
+    <script src="./Script/Code.js"></script>
+
+</body>
+
+</html>
